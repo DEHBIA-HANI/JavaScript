@@ -36,3 +36,24 @@ console.log(firstChar);
 /*Length de 1 2 3 4*/
 console.log(helloSentence.length);
 console.log(helloSentence.toUpperCase());
+
+//2.Number
+let myAge = 42;
+console.log(myAge);
+// + dans une string= concaténation
+//+ dans un number= addition
+console.log("42" + 3);
+console.log(Number("42") + 3);
+//on peut convertir en nombre , NaN: not a Number
+const firstName = "Dehbia";
+console.log(Number(firstName));
+
+console.log(Number.isNaN(firstName));
+// "est pas un nombre"=true= yes
+//"=false=non"
+
+// oprérateur d'affectation
+myAge--;
+console.log(myAge);
+myAge = myAge - 1;
+console.log(myAge);
