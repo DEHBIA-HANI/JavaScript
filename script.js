@@ -5,3 +5,34 @@ console.log("name", myName);
 myName = "louise";
 console.log("name", myName);
 //Variable "non modifiable"
+const origin = "Ilatie";
+console.log("origin", origin);
+
+// les type de données
+// String="Dehbia"
+//Boolean=false/true ->0/1 ->Oui/Non
+//Numbe=0 1 2 3 100 1000000 100000000000000000000000000000000000092000000
+//BigInt=100000000000000000000000000000000000092000000
+//Symbol= new Symbol("a")
+//null="Il y a rien":
+//undefined=Pas définit
+
+//1.Sting
+const myString = "double quote";
+const mySrting2 = "single quote";
+const myString3 = `back-tick`;
+console.log(myString, mySrting2, myString3);
+
+const lastName = "Ouiza";
+// const helloSentence= "hello "+lastName
+const helloSentence = `hello ${lastName}`;
+console.log(helloSentence);
+
+//récuperer le premier caractère
+/*Index de 0 1 2 3 4*/
+const firstChar = helloSentence[0];
+console.log(firstChar);
+// longueur de chaine
+/*Length de 1 2 3 4*/
+console.log(helloSentence.length);
+console.log(helloSentence.toUpperCase());
