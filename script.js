@@ -62,7 +62,111 @@ console.log(myAge);
 //3.Boolean
 
 myAge = 16;
-// const isMajor = false;
-// console.log(`${myAge} est il majeur ? ${isMajor}`);
-const isMajor = Boolean(myAge); // Convertit une chaîne vide en un booléen (false)
+const isMajor = "";
+console.log(`${myAge} est il majeur ? ${isMajor}`);
+// const isMajor = Boolean(myAge); // Convertit une chaîne vide en un booléen (false)
 console.log(isMajor);
+
+//4.Conditions
+//if= si
+//else=sinon
+const condition = "";
+if (condition) {
+  //true
+  //executé
+  console.log("if true");
+} else {
+  //false
+  //executé
+  console.log("else false");
+}
+
+// let myOld=44
+// if(myOld==="44"){
+//   console.log("mon age est égale à 44");
+// }else{
+//   if(myOld=="44"){
+//     console.log("mon age est presque égal à 44");
+
+//   }else{
+//     console.log("mon age n'est égale à 44");
+
+//   }
+// }
+/******** != */
+// let myOld=44
+// if(myOld==="44"){
+//   console.log("mon age est égale à 44");
+// }else{
+//   if(myOld!="44"){
+//     console.log("mon age est presque égal à 44");
+//   }else{
+//     console.log("mon age n'est égale à 44");
+//   }
+// }
+/******** !== */
+// let myOld = 44;
+// if (myOld !== "44") {
+//   console.log("mon age est égale à 44");
+// } else {
+//   if (myOld == "44") {
+//     console.log("mon age est presque égal à 44");
+//   } else {
+//     console.log("mon age n'est égale à 44");
+//   }
+// }
+/******** > < >= */
+// let myOld = 44;
+// if (myOld > 44) {
+//   console.log("CONDITION EST VRAI");
+// } else {
+//     console.log("CONDITION EST FALSE");
+//   }
+/******** ! inverser */
+// let myOld = 44;
+// if (!myOld) {
+//   console.log("CONDITION EST VRAI");
+// } else {
+//     console.log("CONDITION EST FALSE");
+// opérateur logique
+//   }/******** && et ,|| ou */
+// let myOld = 44;
+// console.log(myOld>0);
+// console.log(myOld<18);
+
+// //    true     et  false => false
+// if (myOld > 0  && myOld>18) {
+//   console.log("CONDITION EST VRAI");
+// } else {
+//     console.log("CONDITION EST FALSE");
+//   //////////
+let myOld = -50;
+console.log(myOld > 0);
+console.log(myOld < 18);
+
+//    FALSE     et  TRUE => TRUE
+if (myOld > 0 || myOld < 18) {
+  console.log("CONDITION EST VRAI");
+} else {
+  console.log("CONDITION EST FALSE");
+}
+let myNam = "Melvyn";
+console.log(myNam.length > 10);
+console.log(myNam.length > 5);
+console.log(myNam.charAt(0) === "M");
+
+if (myNam.length > 10 || (myNam.length > 5 && myNam.charAt(0) === "M")) {
+  console.log("CONDITION EST VRAI");
+} else {
+  console.log("CONDITION EST FALSE");
+}
+///// ternaire opérateur
+
+if (myNam.length > 10) {
+  myNam = "m";
+} else {
+  myNam = "Z";
+}
+console.log(myNam);
+const myNam2 = "Melvyn".lengh > 10 ? "vrai" : "Faux";
+console.log(myNam2);
