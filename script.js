@@ -1,3 +1,4 @@
+import boolean from "boolean";
 //Les variables en JavaScript
 //Variables "modifiable"
 let myName = "Dehbia";
@@ -57,3 +58,11 @@ myAge--;
 console.log(myAge);
 myAge = myAge - 1;
 console.log(myAge);
+
+//3.Boolean
+
+myAge = 16;
+// const isMajor = false;
+// console.log(`${myAge} est il majeur ? ${isMajor}`);
+const isMajor = Boolean(myAge); // Convertit une chaîne vide en un booléen (false)
+console.log(isMajor);
