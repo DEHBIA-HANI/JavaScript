@@ -170,3 +170,31 @@ if (myNam.length > 10) {
 console.log(myNam);
 const myNam2 = "Melvyn".lengh > 10 ? "vrai" : "Faux";
 console.log(myNam2);
+//////////////////////////////////////////////////////////////////////////////////
+//1.Fonction
+// function add(a, b) {
+//   console.log(a);
+//   console.log(b);
+//   console.log(`Addition :"${a + b}`);
+// }
+// add(12, 15);
+// add(50, 30);
+function divid(a, b) {
+  if (b === 0) {
+    return 0;
+  }
+  return a / b;
+}
+const result1 = divid(10, 2);
+const result2 = divid(10, 0);
+console.log(result1, result2);
+//regulaire function
+function add(a, b) {
+  return a + b;
+}
+// Arrow fonction
+const addArrow = (a, b) => {
+  return a + b;
+};
+console.log(add(1, 2));
+console.log(addArrow(1, 2));
