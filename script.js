@@ -198,3 +198,29 @@ const addArrow = (a, b) => {
 };
 console.log(add(1, 2));
 console.log(addArrow(1, 2));
+
+//Objet , tableau
+const names = ["melvyn", "Alexendre", "Didier"];
+const names2 = names;
+names.push("Last");
+names.unshift("1");
+names.splice(1, 2);
+names2;
+
+const user = {
+  //Key: valeur
+  ///key=string/number
+  //valeur
+  name: "Melvyn",
+  age: 26,
+  adress:{
+    city:"vevey"
+  },
+  isMajeur:true
+};
+// user.age=55
+const key="name";
+user[key]=55;
+user;
+console.log(Object.keys(user.adress));
+console.log(Object.values(user));
